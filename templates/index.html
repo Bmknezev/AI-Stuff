@@ -1,0 +1,10 @@
+
+<form method="post" action="">
+Enter text here {{form.mytext}}
+   <input type=submit value=enter>
+   <audio controls autoplay>
+      <source src="{{url_for('static', filename='result.mp3')}}" type="audio/mp3">
+   </audio>
+</form>
+
+<textarea>{{text}}</textarea>
